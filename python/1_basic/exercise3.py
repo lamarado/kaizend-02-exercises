@@ -5,7 +5,7 @@
 # So if I passed in the string "hello",
 # it would print "hellohellohello"
 
-def tripleprint(input_string):
-    print("{}{}{}".format(input_string, input_string, input_string))
+def tripleprint(s):
+    print("{}{}{}".format(s, s, s))
 
 tripleprint("hello")
